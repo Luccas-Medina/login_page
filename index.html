@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login Institucional</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Redefinir Senha</h1>
+            </br>
+                <span>Insira seus dados</span>
+                <input type="text" placeholder="CPF">
+                <input type="email" placeholder="Insira seu E-mail Institucional">
+                <input type="password" placeholder="Nova senha">
+                <input type="password" placeholder="Reescreva a senha">
+                <button>Registrar nova senha</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <img src="https://ecossistema.doctum.edu.br/assets/img/illustrations/logoDoctum.svg" width="180px" style="margin: -60px 0 -30px;" alt="">
+                <h1 style="margin-left: -10px;">Login Institucional</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                </div>
+                <input type="email" placeholder="Insira seu E-mail">
+                <input type="password" placeholder="Insira a senha">
+                <a href="#">Esqueceu a senha?</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Retornar ao login</h1>
+                    <p>Com E-mail e senha</p>
+                    <button class="hidden" id="login">Voltar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Redefinir a senha?</h1>
+                </br>
+                    <button class="hidden" id="register">Clique aqui</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
